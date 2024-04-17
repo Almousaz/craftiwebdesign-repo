@@ -320,3 +320,42 @@ body {
   right: 0;
   width: 160px;
 }
+
+/* about section */
+
+.about{
+  background-color: var(--bistre);
+  color: var(--white);
+}
+.about .container{
+  display: grid;
+  gap: 30px;
+}
+.about-banner{
+  border-radius: var(--radius-16);
+  max-width: max-content;
+}
+.about-banner-1 {
+  border-bottom-right-radius: 120px;
+}
+.about .section-title {
+  color: var(--white);
+}
+.about .wrapper .section-title{
+  margin-block-start: 20px;
+}
+
+.about-banner-2{
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+.about-content .section-title{
+  margin-block-end: 20px;
+}
+.about .btn {
+  margin-block: 30px;
+}
+.about-banner-3 {
+  border-bottom-right-radius: 100px;
+
+}
